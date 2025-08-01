@@ -3,7 +3,7 @@ module github.com/rumendamyanov/go-vcard/adapters/fiber
 go 1.23.6
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.0
+	github.com/gofiber/fiber/v2 v2.52.5
 	github.com/rumendamyanov/go-vcard v0.0.0
 )
 
