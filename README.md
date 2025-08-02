@@ -1,8 +1,10 @@
 # go-vcard
 
 [![CI](https://github.com/rumendamyanov/go-vcard/actions/workflows/ci.yml/badge.svg)](https://github.com/rumendamyanov/go-vcard/actions/workflows/ci.yml)
+![CodeQL](https://github.com/rumendamyanov/go-vcard/actions/workflows/github-code-scanning/codeql/badge.svg)
+![Dependabot](https://github.com/rumendamyanov/go-vcard/actions/workflows/dependabot/dependabot-updates/badge.svg)
 [![codecov](https://codecov.io/gh/rumendamyanov/go-vcard/branch/master/graph/badge.svg)](https://codecov.io/gh/rumendamyanov/go-vcard)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rumendamyanov/go-vcard)](https://goreportcard.com/report/github.com/rumendamyanov/go-vcard)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rumendamyanov/go-vcard?)](https://goreportcard.com/report/github.com/rumendamyanov/go-vcard)
 [![Go Reference](https://pkg.go.dev/badge/github.com/rumendamyanov/go-vcard.svg)](https://pkg.go.dev/github.com/rumendamyanov/go-vcard)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rumendamyanov/go-vcard/blob/master/LICENSE.md)
 
@@ -14,7 +16,7 @@ A framework-agnostic Go module for generating vCard files (.vcf) compatible with
 • **vCard 3.0/4.0 support**: Generate standards-compliant vCard files
 • **Rich content**: Supports names, emails, phones, addresses, organizations, photos, and more
 • **Modern Go**: Type-safe, extensible, and robust (Go 1.22+)
-• **High test coverage**: 83.8% coverage with comprehensive test suite and CI/CD integration
+• **High test coverage**: 90+% coverage with comprehensive test suite and CI/CD integration
 • **Easy integration**: Simple API, drop-in for handlers/middleware
 • **Production ready**: Used in production environments
 • **Multiple formats**: File output and HTTP response generation
