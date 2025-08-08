@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	vcard "github.com/rumendamyanov/go-vcard"
+	vcard "go.rumenx.com/vcard"
 )
 
 // VCardResponse represents the JSON response structure

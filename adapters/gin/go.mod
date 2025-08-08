@@ -1,12 +1,12 @@
-module github.com/rumendamyanov/go-vcard/adapters/gin
+module go.rumenx.com/vcard/adapters/gin
 
 go 1.23.6
 
-replace github.com/rumendamyanov/go-vcard => ../..
+replace go.rumenx.com/vcard => ../..
 
 require (
 	github.com/gin-gonic/gin v1.10.1
-	github.com/rumendamyanov/go-vcard v0.0.0-00010101000000-000000000000
+	go.rumenx.com/vcard v0.0.0-00010101000000-000000000000
 )
 
 require (

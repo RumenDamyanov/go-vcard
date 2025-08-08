@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/gofiber/fiber/v2"
-	vcard "github.com/rumendamyanov/go-vcard"
+	vcard "go.rumenx.com/vcard"
 )
 
 func TestVCardMiddleware(t *testing.T) {

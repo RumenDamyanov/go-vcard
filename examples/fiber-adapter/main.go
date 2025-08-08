@@ -9,7 +9,7 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/recover"
-	"github.com/rumendamyanov/go-vcard"
+	"go.rumenx.com/vcard"
 )
 
 // VCardHandler is a function that returns a VCard

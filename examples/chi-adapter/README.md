@@ -67,7 +67,7 @@ Health check endpoint returning server status.
 ```go
 import (
     "github.com/go-chi/chi/v5"
-    vcard "github.com/rumendamyanov/go-vcard"
+  vcard "go.rumenx.com/vcard"
 )
 
 // Create Chi router
@@ -109,7 +109,7 @@ r.Get("/vcard/{firstName}/{lastName}", func(w http.ResponseWriter, r *http.Reque
 ## Dependencies
 
 - Chi v5: `github.com/go-chi/chi/v5`
-- go-vcard: `github.com/rumendamyanov/go-vcard`
+- go-vcard: `go.rumenx.com/vcard`
 
 ## Testing
 

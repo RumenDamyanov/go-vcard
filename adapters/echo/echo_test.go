@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v4"
-	"github.com/rumendamyanov/go-vcard"
+	"go.rumenx.com/vcard"
 )
 
 func TestVCard(t *testing.T) {

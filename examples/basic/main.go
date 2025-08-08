@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/rumendamyanov/go-vcard"
+	"go.rumenx.com/vcard"
 )
 
 func main() {
