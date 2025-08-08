@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/go-chi/chi/v5"
-	vcard "github.com/rumendamyanov/go-vcard"
+	vcard "go.rumenx.com/vcard"
 )
 
 func TestVCardMiddleware(t *testing.T) {

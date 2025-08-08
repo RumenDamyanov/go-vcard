@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/rumendamyanov/go-vcard"
+	"go.rumenx.com/vcard"
 )
 
 // VCardHandler is a function that returns a VCard

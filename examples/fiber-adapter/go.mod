@@ -4,7 +4,7 @@ go 1.23.6
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.9
-	github.com/rumendamyanov/go-vcard v0.0.0
+	go.rumenx.com/vcard v0.0.0
 )
 
 require (
@@ -21,4 +21,4 @@ require (
 	golang.org/x/sys v0.28.0 // indirect
 )
 
-replace github.com/rumendamyanov/go-vcard => ../..
+replace go.rumenx.com/vcard => ../..

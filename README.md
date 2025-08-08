@@ -4,8 +4,8 @@
 ![CodeQL](https://github.com/rumendamyanov/go-vcard/actions/workflows/github-code-scanning/codeql/badge.svg)
 ![Dependabot](https://github.com/rumendamyanov/go-vcard/actions/workflows/dependabot/dependabot-updates/badge.svg)
 [![codecov](https://codecov.io/gh/rumendamyanov/go-vcard/branch/master/graph/badge.svg)](https://codecov.io/gh/rumendamyanov/go-vcard)
-[![Go Report Card](https://goreportcard.com/badge/github.com/rumendamyanov/go-vcard?)](https://goreportcard.com/report/github.com/rumendamyanov/go-vcard)
-[![Go Reference](https://pkg.go.dev/badge/github.com/rumendamyanov/go-vcard.svg)](https://pkg.go.dev/github.com/rumendamyanov/go-vcard)
+[![Go Report Card](https://goreportcard.com/badge/go.rumenx.com/vcard?)](https://goreportcard.com/report/go.rumenx.com/vcard)
+[![Go Reference](https://pkg.go.dev/badge/go.rumenx.com/vcard.svg)](https://pkg.go.dev/go.rumenx.com/vcard)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rumendamyanov/go-vcard/blob/master/LICENSE.md)
 
 A framework-agnostic Go module for generating vCard files (.vcf) compatible with major contact managers (iOS, Android, Gmail, iCloud, etc.). Inspired by [php-vcard](https://github.com/RumenDamyanov/php-vcard), this package works seamlessly with any Go web framework including Gin, Echo, Fiber, Chi, and standard net/http.
@@ -37,7 +37,7 @@ A framework-agnostic Go module for generating vCard files (.vcf) compatible with
 ## Installation
 
 ```bash
-go get github.com/rumendamyanov/go-vcard
+go get go.rumenx.com/vcard
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ package main
 
 import (
     "net/http"
-    "github.com/rumendamyanov/go-vcard"
+    "go.rumenx.com/vcard"
 )
 
 func vcardHandler(w http.ResponseWriter, r *http.Request) {
@@ -148,7 +148,7 @@ Ready-to-use examples for popular Go web frameworks are available in the [`examp
 
 **1. Import Adapter Packages** — For clean middleware integration:
 ```bash
-go get github.com/rumendamyanov/go-vcard/adapters/gin    # or echo, fiber, chi
+go get go.rumenx.com/vcard/adapters/gin    # or echo, fiber, chi
 ```
 
 **2. Copy Example Applications** — For quick start with full applications:
@@ -197,8 +197,8 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/rumendamyanov/go-vcard"
-    ginadapter "github.com/rumendamyanov/go-vcard/adapters/gin"
+    "go.rumenx.com/vcard"
+    ginadapter "go.rumenx.com/vcard/adapters/gin"
 )
 
 func main() {
@@ -225,8 +225,8 @@ package main
 
 import (
     "github.com/gofiber/fiber/v2"
-    "github.com/rumendamyanov/go-vcard"
-    fiberadapter "github.com/rumendamyanov/go-vcard/adapters/fiber"
+    "go.rumenx.com/vcard"
+    fiberadapter "go.rumenx.com/vcard/adapters/fiber"
 )
 
 func main() {
@@ -253,8 +253,8 @@ package main
 
 import (
     "github.com/labstack/echo/v4"
-    "github.com/rumendamyanov/go-vcard"
-    echoadapter "github.com/rumendamyanov/go-vcard/adapters/echo"
+    "go.rumenx.com/vcard"
+    echoadapter "go.rumenx.com/vcard/adapters/echo"
 )
 
 func main() {
@@ -282,8 +282,8 @@ package main
 import (
     "net/http"
     "github.com/go-chi/chi/v5"
-    "github.com/rumendamyanov/go-vcard"
-    chiadapter "github.com/rumendamyanov/go-vcard/adapters/chi"
+    "go.rumenx.com/vcard"
+    chiadapter "go.rumenx.com/vcard/adapters/chi"
 )
 
 func main() {

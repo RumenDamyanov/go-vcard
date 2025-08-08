@@ -1,10 +1,10 @@
-module github.com/rumendamyanov/go-vcard/adapters/echo
+module go.rumenx.com/vcard/adapters/echo
 
 go 1.23.6
 
 require (
 	github.com/labstack/echo/v4 v4.12.0
-	github.com/rumendamyanov/go-vcard v0.0.0
+	go.rumenx.com/vcard v0.0.0
 )
 
 require (
@@ -19,4 +19,4 @@ require (
 	golang.org/x/text v0.23.0 // indirect
 )
 
-replace github.com/rumendamyanov/go-vcard => ../../
+replace go.rumenx.com/vcard => ../../

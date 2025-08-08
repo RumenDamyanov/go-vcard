@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/rumendamyanov/go-vcard"
+	"go.rumenx.com/vcard"
 )
 
 func TestMain(m *testing.M) {

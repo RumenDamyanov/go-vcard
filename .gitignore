@@ -34,8 +34,8 @@ ehthumbs.db
 Thumbs.db
 
 # Coverage reports
-coverage.html
-coverage.out
+coverage*.html
+coverage*.out
 
 # Temporary files
 *.tmp
@@ -56,3 +56,6 @@ dist/
 # Misc
 wiki/
 docs/
+
+# Ignore compiled binaries generated in example folders
+examples/*-adapter/*-adapter*

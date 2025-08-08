@@ -3,7 +3,7 @@ package fiber
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/rumendamyanov/go-vcard"
+	"go.rumenx.com/vcard"
 )
 
 // VCardHandler is a function that returns a VCard

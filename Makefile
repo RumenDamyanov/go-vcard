@@ -69,7 +69,7 @@ docs: ## Generate documentation
 	@echo "Documentation available at:"
 	@echo "  - README.md"
 	@echo "  - wiki/ directory"
-	@echo "  - https://pkg.go.dev/github.com/rumendamyanov/go-vcard"
+	@echo "  - https://pkg.go.dev/go.rumenx.com/vcard"
 
 # CI/CD helpers
 ci-test: ## Run tests in CI environment

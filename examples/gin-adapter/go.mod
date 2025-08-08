@@ -4,7 +4,7 @@ go 1.23.6
 
 require (
 	github.com/gin-gonic/gin v1.10.0
-	github.com/rumendamyanov/go-vcard v0.0.0
+	go.rumenx.com/vcard v0.0.0
 )
 
 require (
@@ -36,4 +36,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/rumendamyanov/go-vcard => ../..
+replace go.rumenx.com/vcard => ../..

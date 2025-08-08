@@ -4,9 +4,9 @@ permissions:
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, develop ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, develop ]
 
 jobs:
   test:
@@ -22,6 +22,7 @@ jobs:
       uses: actions/setup-go@v5
       with:
         go-version: ${{ matrix.go-version }}
+        cache: true
 
     - name: Verify dependencies
       run: go mod verify
@@ -41,10 +42,24 @@ jobs:
     - name: Run tests
       run: go test -race -coverprofile=coverage.out -covermode=atomic ./...
 
+    - name: Run adapter module tests
+      run: |
+        for d in adapters/gin adapters/echo adapters/fiber adapters/chi; do
+          echo "Testing $d"
+          (cd "$d" && go mod tidy && go test -race ./...)
+        done
+
+    - name: Build example apps
+      run: |
+        for d in examples examples/gin-adapter examples/echo-adapter examples/fiber-adapter examples/chi-adapter; do
+          echo "Building $d"
+          (cd "$d" && go mod tidy && go build ./...)
+        done
+
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v5
       with:
-        file: ./coverage.out
+        files: ./coverage.out
         flags: unittests
         name: codecov-umbrella
         fail_ci_if_error: false
