@@ -3,7 +3,7 @@ module fiber-adapter-example
 go 1.23.6
 
 require (
-	github.com/gofiber/fiber/v2 v2.52.9
+	github.com/gofiber/fiber/v2 v2.52.11
 	go.rumenx.com/vcard v0.0.0
 )
 
