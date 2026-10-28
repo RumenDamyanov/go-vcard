@@ -1,6 +1,6 @@
 module go.rumenx.com/vcard/adapters/gin
 
-go 1.25.0
+go 1.26.10
 
 replace go.rumenx.com/vcard => ../..
 

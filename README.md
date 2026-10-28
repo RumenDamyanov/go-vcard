@@ -40,6 +40,8 @@ A framework-agnostic Go module for generating vCard files (.vcf) compatible with
 go get go.rumenx.com/vcard
 ```
 
+Build with **Go 1.26.10+** or **1.27.3+**. See [SECURITY.md](SECURITY.md).
+
 ## Usage
 
 ### Basic Example (net/http)

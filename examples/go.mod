@@ -1,6 +1,6 @@
 module examples
 
-go 1.23.6
+go 1.26.10
 
 replace go.rumenx.com/vcard => ../
 

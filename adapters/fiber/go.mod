@@ -1,6 +1,6 @@
 module go.rumenx.com/vcard/adapters/fiber
 
-go 1.23.6
+go 1.26.10
 
 require (
 	github.com/gofiber/fiber/v2 v2.52.14
@@ -8,7 +8,7 @@ require (
 )
 
 require (
-	github.com/andybalholm/brotli v1.1.0 // indirect
+	github.com/andybalholm/brotli v1.2.7 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
