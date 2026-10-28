@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Require Go 1.26.10 or newer. Go 1.25 and older are end of life and do not include the October 2026 toolchain fixes.
 - Adapter modules that use Fiber require `github.com/andybalholm/brotli` v1.2.7. Earlier versions panic on crafted Brotli input.
+- Gin and Echo adapters require `golang.org/x/net` v0.60.0. Older copies are reachable from HTTP handlers.
 
 ## [Unreleased]
 
