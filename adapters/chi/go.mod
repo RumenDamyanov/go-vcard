@@ -3,7 +3,7 @@ module go.rumenx.com/vcard/adapters/chi
 go 1.26.10
 
 require (
-	github.com/go-chi/chi/v5 v5.2.4
+	github.com/go-chi/chi/v5 v5.4.0
 	go.rumenx.com/vcard v0.0.0
 )
 
